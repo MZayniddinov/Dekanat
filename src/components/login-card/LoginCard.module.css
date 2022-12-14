@@ -8,7 +8,7 @@
 .login-logo {
   width: 330px;
   height: 67px;
-  margin-bottom: 47px;
+  margin-bottom: 40px;
 }
 
 .login-logo img {
@@ -22,7 +22,7 @@
   color: var(--black-c);
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 47px;
+  margin-bottom: 40px;
 }
 
 .login-inputs {
@@ -39,7 +39,7 @@
 }
 .forgot-password {
   text-align: right;
-  margin-bottom: 49px;
+  margin-bottom: 40px;
 }
 .forgot-password__link {
   text-decoration-line: underline;
