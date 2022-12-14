@@ -1,0 +1,114 @@
+.container {
+  margin-top: 25px;
+  margin-left: 30px;
+}
+.img {
+  height: 116px;
+  width: 103px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 17px;
+}
+.content {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--black-c);
+}
+.button-card {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  width: 340px;
+  height: 40px;
+}
+.content-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--black-c);
+  font-size: 12px;
+}
+
+.graduate_inputs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+
+  gap: 40px;
+  align-items: center;
+  padding: 30px;
+}
+.graduate_inputs div input {
+  width: 100%;
+  padding: 10px 2rem;
+  background: var(--primary-white-c);
+  outline: none;
+  border-radius: 5px;
+  outline: none;
+}
+.graduate_inputs div label {
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.graduate_inputs div select {
+  padding: 10px 4rem 10px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background: var(--primary-white-c);
+  outline: none;
+}
+
+.searchCardSecondBlock div select {
+  padding: 10px 4rem 10px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background: var(--primary-white-c);
+  align-items: center;
+  margin: 0 10px;
+}
+.searchCardFirsBlock div input {
+  width: 100%;
+  padding: 10px 2rem;
+  background: var(--primary-white-c);
+  outline: none;
+  border-radius: 5px;
+  align-items: center;
+}
+/* graduate links start */
+.graduate_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--black-c);
+}
+.graduate_links a {
+  color: var(--black-c);
+  text-decoration: none;
+  padding: 4px 0;
+  box-sizing: border-box;
+}
+.graduate_showing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.graduate_showing select {
+  margin: 0 10px;
+  background: var(--primary-white-c);
+  padding: 0.5rem 2rem;
+}
+.graduate_showing button {
+  padding: 0.5rem 1rem;
+  margin: 0 10px;
+  background: var(--primary-white-c);
+  color: var(--black-c);
+  outline: none;
+}

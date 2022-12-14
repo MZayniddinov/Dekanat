@@ -1,0 +1,80 @@
+.container {
+  margin-top: 25px;
+  margin-left: 30px;
+}
+.img {
+  height: 116px;
+  width: 103px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 17px;
+}
+.content {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--black-c);
+}
+.button-card {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  width: 340px;
+  height: 40px;
+}
+.content-p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--black-c);
+  font-size: 12px;
+}
+.searchCarchInputs {
+  padding: 15px 0;
+}
+.searchCarchInputs .searchCardFirsBlock {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 3fr 12fr;
+  align-items: center;
+  justify-content: space-between;
+}
+.searchCarchInputs .searchCardFirsBlock div input {
+  width: 100%;
+  padding: 10px 2rem;
+  background: var(--primary-white-c);
+  outline: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.searchCarchInputs .searchCardFirsBlock div select {
+  padding: 10px 4rem 10px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background: var(--primary-white-c);
+  outline: none;
+}
+.searchCardSecondBlock {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  align-items: center;
+  padding: 30px;
+}
+.searchCardSecondBlock div select {
+  padding: 10px 4rem 10px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background: var(--primary-white-c);
+  align-items: center;
+  margin: 0 10px;
+}
+.searchCardSecondBlock div input {
+  margin: 0 20px;
+}
