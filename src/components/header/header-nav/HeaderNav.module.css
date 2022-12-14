@@ -15,7 +15,7 @@
 
 .header-nav__collection {
   display: flex;
-  gap: 12px;
+  gap: 25px;
 }
 
 .header-nav__collection-item {
@@ -31,6 +31,8 @@
 
 .header-nav__link-active {
   padding: 10px 12px;
+  border-radius: 20px;
+  overflow: hidden;
   background-color: var(--white-c);
   color: var(--primary-blue-c);
 }
